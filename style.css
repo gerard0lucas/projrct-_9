@@ -1,0 +1,245 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0;
+
+}
+header{
+  background-color: #3c0af3;
+  height: 67vh;
+}
+header nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 2% 4%;
+  align-items: center;
+  color: white;
+}
+header nav div{
+  margin-right: auto;
+}
+.nav-item-active{
+background-color: #fff;
+color: #3c0af3;
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70px;
+height: 28px;
+}
+.header-image{
+  float: right;  
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+}
+.header-text{
+
+  margin:4% 0 0 4%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.header-text h2{
+  font-size: 40px;
+  font-weight: lighter;
+}
+.header-text img{
+height: 5px;
+width: 60px;
+}
+.companies{
+  display: flex;
+  gap: 6rem;
+  margin: 15px;
+  justify-content: center;
+  width: 60%;
+}
+.company-items{
+  text-decoration: none;
+  color: black;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+.api-heading{
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Secular One', sans-serif;
+}
+.api{
+  margin: 5% 4%;
+}
+.cards{
+  margin:35px 45px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.arrow img{
+  width: 45px;
+}
+.card{
+  padding: 20px;
+  width: 180px;
+}
+.card-body{
+  font-size: 13px;
+}
+.card-active{
+  padding: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 5px;
+  width: 180px;
+}
+.card-head-active{
+  color: #3c0af3;
+}
+.blog-heading h1{
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Secular One', sans-serif;
+  margin-left: 4%;
+}
+.blog-cards{
+  display: flex;
+  margin: 4% 7%;
+  justify-content: space-between;
+}
+.blog-card{
+  display: flex;
+  width: 600px;
+}
+.author{
+  margin-top: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.blog-card{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+}
+.blog-content{
+  padding: 30px 60px;
+}
+.blog-card-bottom-image{
+  width: 45px;
+}
+.blog-content h6{
+  color: #3c0af3;
+}
+.blog-content h3{
+  margin-top: 15px;
+  font-weight:bolder;
+  font-size: 20px;
+}
+.blog-content small{
+  margin-top: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.faq-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(185, 219, 243);
+  align-items: center;
+}
+.faq-content{
+  margin-left: 5%;
+}
+.faq-image img{
+  height: 370px;
+}
+.faq-content button{
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color:#3c0af3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.faq-content h2{
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Secular One', sans-serif;
+  margin-bottom: 20px;
+}
+.faq-content h4{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.download-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+  align-items: center;
+}
+.download-section h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+.download-section span{
+  font-size: 40px;
+  font-weight: lighter;
+}
+.download-email form{
+  background-color: rgb(207, 220, 242);
+  display: flex;
+  width: 500px;
+  justify-content: flex-end;
+  border-radius: 30px;
+}
+.download-email input{
+  background-color: transparent;
+  width: 330px;
+  border: none;
+  height: 45px;
+}
+.download-email button{
+  background-color: #3c0af3;
+  width: 150px;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+}
+.footer-section{
+ display: flex;
+ background-color: #3c0af3;
+ justify-content: space-between;
+ padding: 70px;
+ color: #fff;
+}
+.list{
+  display: flex;
+  list-style: none;
+  margin-top: 25px;  
+}
+.list-items{
+  padding: 0 15px;
+  border-left: 2px solid #fff;
+}
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right{
+  display: flex;
+  gap: 1rem;
+}
+.logos-list{
+  display: flex;
+  list-style: none;
+  margin-top: 25px; 
+}
+
+
