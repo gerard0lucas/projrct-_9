@@ -15,12 +15,18 @@ header{
 header nav{
   display: flex;
   justify-content: flex-end;
-  gap: 2rem;
   padding: 2% 4%;
   align-items: center;
   color: white;
 }
-header nav div{
+.bars{
+  display: none;
+}
+.nav_lists{
+  display: flex;
+  gap: 2rem;
+}
+header nav .logo{
   margin-right: auto;
 }
 .nav-item-active{
@@ -80,8 +86,10 @@ width: 60px;
 .cards{
   margin:35px 45px;
   display: flex;
-  justify-content:space-between;
+  gap: 2rem;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .arrow img{
   width: 45px;
@@ -110,8 +118,8 @@ width: 60px;
 }
 .blog-cards{
   display: flex;
-  margin: 4% 7%;
-  justify-content: space-between;
+  margin: 4% ;
+  justify-content: space-around;
 }
 .blog-card{
   display: flex;
@@ -122,6 +130,12 @@ width: 60px;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.blog-image{
+  height: 100%;
+}
+.blog-image img{
+  object-fit: cover;
 }
 .blog-card{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
@@ -240,6 +254,105 @@ align-items: center;
   display: flex;
   list-style: none;
   margin-top: 25px; 
+}
+
+
+
+/* ...............................................................................*/
+@media only screen and (max-width: 980px) {
+
+  .nav_lists{
+    display: none;
+  }
+  .bars{
+    display: inline;
+    font-size: 30px;
+  }
+  .companies{
+    display: flex;
+    gap: 6rem;
+    margin-top: 210px;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .arrow{
+    display: none;
+  }
+  .blog-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .faq-section{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .faq-image img{
+    width: 100%;
+  }
+  .download-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+   }
+   .list{
+    display: none;
+   }
+   .blog-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+
+
+
+
+
+}
+/* ...............................................................................*/
+@media only screen and (max-width: 600px) {
+  .companies{
+    display: block;
+    margin-top: 300px;
+    justify-content: center;
+    width: 100%;
+  }
+  .company-items{
+    display: block;
+  }
+  .download-email form{
+    width: 350px;
+    padding-right: 10px;
+  }
+  .download-section h1{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .download-section span{
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .download-email input{
+    background-color: transparent;
+    width: 180px;
+    border: none;
+    height: 45px;
+  }
+
+
 }
 
 
