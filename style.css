@@ -351,6 +351,14 @@ align-items: center;
     border: none;
     height: 45px;
   }
+  .card{
+    padding: 20px;
+    width: 300px;
+  }
+  .card-active{
+    padding: 20px;
+    width: 300px;
+  }
 
 
 }
