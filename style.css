@@ -347,7 +347,7 @@ align-items: center;
   }
   .download-email input{
     background-color: transparent;
-    width: 180px;
+    width: 120px; 
     border: none;
     height: 45px;
   }
@@ -358,6 +358,10 @@ align-items: center;
   .card-active{
     padding: 20px;
     width: 300px;
+  }
+  .blog-card{
+    display: flex;
+    width: 100%;
   }
 
 
